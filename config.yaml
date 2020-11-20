@@ -22,15 +22,15 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: outlook.realestatelawyers.ca
+    name: RELS Exchange
+    description: Hosted at VA and MK
+    url: 'https://outlook.realestatelawyers.ca/owa'
     method: GET
     expectStatus: 200
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: upload.realestatelawyers.ca
+    name: RELS Upload Service
+    url: 'https://upload.realestatelawyers.ca/'
     method: GET
     expectStatus: 200
